@@ -1,0 +1,11 @@
+
+<div style="width: 600px;  padding-top:10px; padding-bottom:10px;border: 3px solid #A0A0A0" [ngStyle]="{background: getColor()}">
+<h4 style="text-align: right; position: relative" [ngStyle]="{color: getColor2()}"> {{created_at | date: 'short'}} </h4>
+<h4 style="text-align: left; font-size: 200% " [ngStyle]="{color: getColor2()}"> {{title}} </h4>
+<h4 style="text-align: center" [ngStyle]="{color: getColor2()}"> {{content}} </h4>
+
+
+<button style="background-color: #30B312" class="btn success" (click)="Like()">Love it !!</button>
+
+<button style="background-color: #E1544F" class="btn success" (click)="Dislike()">Don't love it !!</button>
+</div>

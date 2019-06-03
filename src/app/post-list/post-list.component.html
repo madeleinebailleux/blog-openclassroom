@@ -1,0 +1,15 @@
+
+
+
+  <ul class="list-group">
+
+<app-post-list-item *ngFor="let appareil of appareils" 
+						[title]="appareil.title" 
+						[created_at]="appareil.created_at"
+						[content]="appareil.content"
+						[loveIts]="appareil.loveIts"></app-post-list-item>
+
+  
+</ul>
+
+
